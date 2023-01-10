@@ -58,7 +58,7 @@ const Contact = () => {
 
   return (
     <div>
-      <h1 className="h1-contact">Formulaire de Contact</h1>
+      <h2 className="h1-contact">Formulaire de Contact</h2>
 
       <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
         <div className="form-content">
@@ -126,10 +126,10 @@ const Contact = () => {
             {...register('message')}
           ></textarea>
           {errors.message && <p id="c-yup">{errors.message.message}</p>}
-          <label htmlFor="checkbox" className="label-contact">
+          {/* <label htmlFor="checkbox" className="label-contact">
             <input type="checkbox" /> En cochant cette case, j'accepte de
             recevoir des informations sur les différentes offres disponibles.
-          </label>
+          </label> */}
 
           <button className="button-contact" type="Submit" value="Envoyer">
             Envoyer

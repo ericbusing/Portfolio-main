@@ -2,15 +2,15 @@
     background-image: url('/src/img/foret.jpg');
   } */
   
-  .h1-contact {
+  .h2-contact {
     text-align: center;
     font-size: 3rem;
-    color: white;
+    color: black;
   }
   
   .contact-form {
     margin: 3rem auto 0;
-    max-width: 30%;
+    max-width: 100%;
     padding: 0rem 2rem 0.8rem;
     background-color: rgba(255, 255, 255, 0.753);
     border-radius: 2rem;
@@ -52,6 +52,7 @@
     cursor: pointer;
     background-color: red;
     margin: 1rem 3rem 0 3rem;
+    width: 60%;
   }
   
   .button-contact:hover {
