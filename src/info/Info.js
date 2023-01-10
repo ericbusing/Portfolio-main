@@ -4,6 +4,7 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import mock6 from "../img/mock6.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -103,21 +104,21 @@ export const info = {
         },
         {
             title: "Projet Kanap",
-            live: "https://paytonpierce.dev",
+            live: "",
             source: "https://github.com/ericbusing/OpenClassrooms-P5/tree/main",
             image: mock4
         },
         {
             title: "Projet Hot Takes",
-            live: "https://paytonpierce.dev",
+            live: "",
             source: "https://github.com/ericbusing/Openclassrooms-P6/tree/main",
             image: mock5
         },
         {
             title: "Projet Groupomania",
-            live: "https://paytonpierce.dev",
+            live: "",
             source: "https://github.com/ericbusing/Groupomania",
-            image: mock5
+            image: mock6
         }
     ]
 }
